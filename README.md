@@ -1,4 +1,4 @@
-# [Kaggle] **U.S. Patent Phrase to Phrase Matching** 银牌方案
+# [[Kaggle] **U.S. Patent Phrase to Phrase Matching**](https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/) 银牌方案
 ### 使用模型：
 
 + Deberta-v3-large
@@ -22,3 +22,6 @@
 +  Change rnn output dim * 2 from (bert out dim like 1024 to 2048) help a lot for some weak models like bert-for-patents and simcse-bert-for-patent.
 +  Minmax scale for each model's output before adding to ensemble.
 +  ...
+
+
+[kaggle个人主页](https://www.kaggle.com/pqxlpjy123)
