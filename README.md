@@ -14,6 +14,7 @@
 + 对context中的单词进行随机mask，进行数据增强(没有效果)
 + 对于bert输出的pooling处理，尝试了self-attention以及Bi-LSTM(部分效果有提升)
 + 预测时对预测值进行分桶(LB有较明显提升)
++ 参照《NoisyTune: A Little Noise Can Help You Finetune Pretrained Language Models Better》对预训练模型加入噪声以提升鲁棒性
 
 ### 学习前排大佬：
 +  Groupby anchor and stratify by score, also there are some words occur in both anchor and target, make sure to put them in the same fold.
